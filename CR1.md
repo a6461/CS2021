@@ -76,5 +76,5 @@ File.Move(new_path, old_path);
 Второй проход. Пока можно читать, читаем по два числа. Если второе из них кратно (меньше) первого, то делаем сдвиг на 8 влево (double по 8 бит).
 Записываем и вновь сдвигаем на 8 влево.
 3. Пользуемся MakeTempFileName для создания нового имени файла. Открываем старый на чтение, новый на запись. Пользуйтесь методом Contains для строк.
-4.1. ReadAllLines, Select, char.IsDigit, тернарный оператор, Replace, WriteAllLines.
-4.2. ReadAllLines, Select, char.IsLower/IsUpper, тернарный оператор, ToLower/ToUpper, WriteAllLines.
+4. 1) ReadAllLines, Select, char.IsDigit, тернарный оператор, Replace, WriteAllLines.
+4. 2) ReadAllLines, Select, char.IsLower/IsUpper, тернарный оператор, ToLower/ToUpper, WriteAllLines.
