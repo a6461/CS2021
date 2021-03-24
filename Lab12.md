@@ -54,3 +54,21 @@ static void Main()
 
 
 ``` 
+
+#### Геттеры и сеттеры
+
+Если поля всегда *private*, то как же их узнавать и менять в основной программе? Классический способ - геттеры и сеттеры.
+
+```csharp
+public string GetName()
+{
+	return name;
+}
+
+
+public string SetName(string name)
+{
+	// Компилятор отличает name класса (this.name) от нового name 
+	this.name = name;
+}
+```
